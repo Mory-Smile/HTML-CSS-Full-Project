@@ -139,6 +139,8 @@ a {text-decoration: none;}
 }
 .header .logo {
     color: var(--main-color);
+    letter-spacing: 15px;
+    font-weight: bold;
     font-size: 26px;
     font-weight: bold;
     height: 72px;
@@ -302,6 +304,7 @@ a {text-decoration: none;}
     display: flex;
     place-items: center;
     padding-bottom: 160px;
+    overflow: hidden;
 }
 .landing .text {
     flex: 1;
@@ -1301,7 +1304,7 @@ margin-bottom: 20px;
     flex-flow: wrap;
 }
 .discount .image {
-    background-image: url('/Template3/images/discountb1.jpg');
+    background-image: url('/images/discountb1.jpg');
     background-size: cover;
     flex-basis: 50%;
     display: flex;
